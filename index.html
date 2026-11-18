@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Khethelo Ntsele's software engineering coursework portfolio, skills and online CV.">
+  <title>Khethelo Ntsele | Software Engineering CV</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header>
+    <a class="name" href="#top">Khethelo Ntsele</a>
+    <nav aria-label="Main"><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#contact">Contact</a></nav>
+  </header>
+  <main id="main">
+    <section class="intro" id="top" aria-labelledby="intro-title">
+      <h1 id="intro-title">Learning to build.<br>Building to solve.</h1>
+      <div class="introduction">
+        <h2>I'm Khethelo, a software engineering student.</h2>
+        <p>I am studying Software Engineering with HyperionDev. My coursework includes Python applications, responsive web pages and Django projects, with a focus on turning requirements into clear, working features.</p>
+        <p>Through projects such as a marketplace, a news application and a sticky notes app, I am developing practical skills in data modelling, permissions, testing and documentation. I enjoy football and running, and value the teamwork and persistence that come with them.</p>
+        <p>My goal is to grow into a software developer who builds useful applications, explains technical decisions clearly and keeps improving through feedback.</p>
+        <a class="action" href="#projects">Explore my coursework <span aria-hidden="true">&rarr;</span></a>
+      </div>
+    </section>
+    <section id="projects" aria-labelledby="projects-title">
+      <div class="section-heading"><h2 id="projects-title">Selected projects</h2><p>Coursework in practice</p></div>
+      <article class="project">
+        <div><h3>Django Marketplace</h3><p class="tools">Python / Django / MariaDB / REST API</p></div>
+        <div><p><strong>The problem:</strong> buyers and vendors need different ways to browse products, manage stores, place orders and access reviews.</p><p><strong>The approach:</strong> role-based permissions separate their workflows. Vendor and store navigation helps buyers find products; a cart, bounded quantity and rating inputs, checkout and invoices support the purchase flow. MariaDB stores application data, and tests check permissions and key behaviours.</p><a href="https://github.com/Khethelo01/django-marketplace">View marketplace source <span aria-hidden="true">&nearr;</span></a></div>
+      </article>
+      <article class="project">
+        <div><h3>Newsroom</h3><p class="tools">Python / Django / MariaDB / REST API</p></div>
+        <div><p><strong>The problem:</strong> readers, journalists and editors need distinct publishing and subscription workflows.</p><p><strong>The approach:</strong> role-aware accounts and permission checks control content creation and approval. Publisher management pages connect editors and journalists to organisations. Approval callbacks support notifications and API publication, while automated tests check registration, ownership and access rules.</p><a href="https://github.com/Khethelo01/django-newsroom">View newsroom source <span aria-hidden="true">&nearr;</span></a></div>
+      </article>
+      <article class="project">
+        <div><h3>Sticky Notes</h3><p class="tools">Python / Django / HTML / CSS</p></div>
+        <div><p><strong>The problem:</strong> personal notes need to be easy to manage while remaining private to their owner.</p><p><strong>The approach:</strong> an authenticated Django application provides note creation, viewing, editing and deletion. Ownership checks restrict access, and automated tests verify the core workflows.</p><a href="https://github.com/Khethelo01/django-sticky-notes">View sticky notes source <span aria-hidden="true">&nearr;</span></a></div>
+      </article>
+    </section>
+    <section class="background" id="experience" aria-labelledby="experience-title">
+      <div><h2 id="experience-title">Experience &amp; education</h2><h3>HyperionDev</h3><p>Software Engineering bootcamp<br>Coursework portfolio</p><p>Practical assignments covering Python, object-oriented programming, unit testing, software design, HTML, CSS, Bootstrap, Django, databases and APIs.</p><h3>Practical project experience</h3><p>The projects above are educational work. They provide practice in interpreting briefs, designing models, implementing features, testing behaviour and responding to code review feedback.</p></div>
+      <div><h2>Skills &amp; competencies</h2><dl><dt>Application development</dt><dd>Python, object-oriented programming, Django, CRUD workflows and form validation</dd><dt>Web interfaces</dt><dd>Semantic HTML, CSS, Bootstrap, responsive layouts and GitHub Pages</dd><dt>Data &amp; integration</dt><dd>MariaDB, database migrations, REST APIs and JSON</dd><dt>Engineering practice</dt><dd>Unit testing, Git and GitHub, UML planning, documentation and iterative problem-solving</dd></dl></div>
+    </section>
+    <section class="contact" id="contact" aria-labelledby="contact-title"><h2 id="contact-title">Let's connect.</h2><p>Explore my code and contact me through my public GitHub profile.</p><a class="action" href="https://github.com/Khethelo01">GitHub &middot; Khethelo01 <span aria-hidden="true">&nearr;</span></a></section>
+  </main>
+  <footer><p>Khethelo Ntsele &middot; Software Engineering coursework portfolio</p><a href="#top">Back to top &uarr;</a></footer>
+</body>
+</html>
